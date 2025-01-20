@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	height: max-content;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: yellow;
+}
+
+header {
+	width: 100%;
+	height: max-content;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.My {
+	margin-right: auto;
+	padding: 50px
+}
+
+.Books {
+	margin-left: auto;
+	padding: 50px
+}
+
+.Avatar {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Avatar img {
+	border: solid black 5px;
+	border-radius: 50%;
+	width: 150px;
+}
+
+main {
+	margin: 50px;
+	height: max-content;
+	width: max-content;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 50px;
+}
+
+.book {
+	transition: .3s ease;
+	padding-right: 40px;
+}
+
+.book:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale (1.1);
+}
+
+.title {
+	text-align: center;
+}
+
+span {
+	font-weight: bold;
+}

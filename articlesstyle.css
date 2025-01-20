@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	width: 100%;
+	height: max-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: yellow;
+}
+
+.My {
+	margin-right: auto;
+	padding: 50px;
+}
+
+.avatar{
+	width:300px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-itmes: center;
+}
+
+.avatar img {
+	border-radius: 50%;
+	border: solid black 5px;
+}
+
+.Ar {
+	margin-left: auto;
+	padding: 50px;
+}
+
+header {
+	width: 100%;
+	height: max-content;
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+main {
+	width: 100%;
+	height: max-content;
+	display:flex;
+	justify-content: flex-start;
+}
+
+figcaption {
+	font-weight: bold;
+}
+
+.articles {
+	width: 200px;
+	padding: 20px;
+}
